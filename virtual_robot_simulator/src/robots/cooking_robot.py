@@ -11,6 +11,13 @@ class CookingRobot(Robot):
         super().__init__(name, batterylvl)
         self.skill = skill
 
+    def skill(self) -> str:
+        return self._skill
+
+    
+    def skill(self, new_skill: str):
+        self._skill = new_skill    
+
     def work(self):
         """
         Implements the cooking behavior.
