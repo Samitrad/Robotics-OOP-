@@ -8,11 +8,11 @@
     Performing both cleaning and cooking tasks.
     Maintaining a consistent state and method hierarchy.
 
-Getters and Setters:
+- Getters and Setters:
     Purpose: Getters and setters are used to encapsulate attributes within classes, providing controlled access to class attributes while protecting internal data integrity.
-Class Methods:
+- Class Methods:
     Purpose: Class methods are used to define methods that operate on the class itself rather than instances of the class. They can be used for utility functions that are related to the class but do not require access to instance-specific data.
-Static Methods:
+- Static Methods:
     Purpose: Static methods are similar to class methods but do not have access to class or instance data. They are primarily used for utility functions that are logically related to the class but do not modify class or instance state.
-Abstract Base Classes (ABCs):
+- Abstract Base Classes (ABCs):
     Purpose: ABCs are used to define a blueprint for other classes, ensuring that they implement specific methods or properties. They enforce a contract that subclasses must follow to be considered valid implementations of the base class.
