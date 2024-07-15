@@ -11,6 +11,13 @@ class CleaningRobot(Robot):
         """
         super().__init__(name, batterylvl)
         self.tool = tool
+        
+     def tool(self) -> str:
+        return self._tool
+
+    
+    def tool(self, new_tool: str):
+        self._tool = new_tool    
 
     def work(self):
         """
